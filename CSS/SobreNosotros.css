@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(/img/argentina.jpg);
+  backdrop-filter: blur(2px);
+  background-size: cover;
+  background-attachment: fixed;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+
+
+    .SobreNosotros {
+      height: 100%;
+
+      h2 {
+        margin-top: 10px;
+        text-align: center;
+        font-size: 30px;
+        color: rgb(89, 89, 115);
+      }
+      p {
+        text-align: justify;
+        margin: 5px;
+        padding: 7px;
+        font-size: 15px;
+      }
+
+      #ContenedorAvatars {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        .Avatar {
+          border: 2px solid black;
+          border-radius: 2%;
+          width: 50%;
+          background-color: rgb(103, 110, 117);
+          margin: 30px;
+          padding: 2px;
+          box-shadow: 5px 5px 10px 5px rgb(164, 153, 153);
+
+          .imgAvatar img {
+            max-width: 100%;
+            height: auto;
+            border-top-left-radius: 2%;
+            border-top-right-radius: 2%;
+          }
+
+          .texImg {
+            background-color: rgb(175, 167, 98);
+            padding: 5px;
+            margin: 0;
+            p {
+              text-align: center;
+            }
+          }
+          .texImg h3 {
+            text-align: center;
+            margin: 5px;
+            padding: 4px;
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+
+
+@media screen and (min-width: 768px) {
+  .Avatar {
+    width: 35%;
+  }
+  hr {
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+}

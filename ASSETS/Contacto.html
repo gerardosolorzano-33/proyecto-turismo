@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/CSS/Contacto.css" />
+    <link rel="stylesheet" href="/CSS/FooterHeader.css" />
+    <script
+      src="https://kit.fontawesome.com/c1bed60cef.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Contacto</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="/index.html" style="text-decoration: none; color: white">
+          <div class="logoHeader">
+            <img src="/img/image.png" alt="Site Logo" width="60vw" />
+            <h2>Argentour</h2>
+          </div>
+        </a>
+
+        <div class="contenidoHeader">
+          <ul>
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="/ASSETS/error404.html">Locaciones</a></li>
+            <li><a href="/ASSETS/error404.html">Planifica tu viaje</a></li>
+          </ul>
+        </div>
+
+        <section class="ExtraHeader">
+          <div class="BtnNav">
+            <a href="/ASSETS/login.html"><button>Acceder</button></a>
+            <a href="/ASSETS/registro.html"><button>Registro</button></a>
+          </div>
+
+          <div class="SearchNav">
+            <input type="text" placeholder="Buscar" />
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+          </div>
+        </section>
+      </nav>
+    </header>
+    <main>
+      <form class="formularioContacto">
+        <div class="contenedorContacto">
+          <h2>Contáctanos</h2>
+          <p>
+            !Vive una experiencia Unica! Te acompañanos guiandote y brindantote
+            los mejores servicios.
+          </p>
+          <br />
+
+          <div class="inputContenedor">
+            <i class="fa-solid fa-user"></i>
+            <label for="name"></label>
+            <input
+              type="text"
+              class="inputC"
+              id="name"
+              placeholder="Nombre y apellido"
+              required
+            />
+          </div>
+          <div class="inputContenedor">
+            <i class="fa-solid fa-envelope"></i>
+            <label for="email"></label>
+            <input
+              type="email"
+              class="inputC"
+              id="email"
+              placeholder="Ingrese un correo valido"
+              required
+            />
+          </div>
+          <div class="inputContenedor">
+            <i class="fa-solid fa-phone"></i>
+            <label for="telefono"></label>
+            <input
+              type="tel"
+              class="inputC"
+              id="telefono"
+              pattern="[0-9]{10}"
+              placeholder="hasta diez caracteres ej:1234567890"
+            />
+          </div>
+          <div class="inputContenedor">
+            <label for="text"></label>
+            <input
+              type="text"
+              class="inputC"
+              id="text"
+              placeholder="Ingresa tu mensaje"
+              minlength="6"
+              maxlength="100"
+            />
+          </div>
+          <button type="submit">Enviar mensaje</button>
+        </div>
+      </form>
+    </main>
+    <footer>
+      <div class="logoFooter">
+        <img src="/img/image.png" alt="Site Logo" width="40vw" />
+        <h2>ArgenTour</h2>
+      </div>
+
+      <div class="FooterLinks">
+        <div class="Redes">
+          <h4>Redes Sociales</h4>
+          <ul>
+            <li>
+              <a href="/ASSETS/error404.html"
+                ><i class="fa-brands fa-instagram fa-2xl"></i
+              ></a>
+            </li>
+            <li>
+              <a href="/ASSETS/error404.html"
+                ><i class="fa-brands fa-square-twitter fa-2xl"></i
+              ></a>
+            </li>
+            <li>
+              <a href="/ASSETS/error404.html"
+                ><i class="fa-brands fa-square-facebook fa-2xl"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="Enlaces">
+          <h4>Información del Sitio</h4>
+          <ul>
+            <li><a href="/ASSETS/Contacto.html">Contacto</a></li>
+            <li><a href="/ASSETS/SobreNosotros.html">Sobre Nosotros</a></li>
+            <li><a href="/ASSETS/error404.html">Política de Privacidad</a></li>
+          </ul>
+        </div>
+
+        <div class="Enlaces">
+          <h4>Acceso</h4>
+          <ul>
+            <li><a href="/ASSETS/login.html">Acceder</a></li>
+            <li><a href="/ASSETS/registro.html">Registrarse</a></li>
+            <li><a href="/ASSETS/error404.html">Soporte</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

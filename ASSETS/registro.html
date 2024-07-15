@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      src="https://kit.fontawesome.com/cda34ee0ad.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="/CSS/registro.css" />
+    <link rel="stylesheet" href="/CSS/FooterHeader.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="/index.html" style="text-decoration: none; color: white">
+          <div class="logoHeader">
+            <img src="/img/image.png" alt="Site Logo" width="60vw" />
+            <h2>Argentour</h2>
+          </div>
+        </a>
+
+        <div class="contenidoHeader">
+          <ul>
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="/ASSETS/error404.html">Locaciones</a></li>
+            <li><a href="/ASSETS/error404.html">Planifica tu viaje</a></li>
+          </ul>
+        </div>
+
+        <section class="ExtraHeader">
+          <div class="BtnNav">
+            <a href="/ASSETS/login.html"><button>Acceder</button></a>
+            <a href="/ASSETS/registro.html"><button>Registro</button></a>
+          </div>
+
+          <div class="SearchNav">
+            <input type="text" placeholder="Buscar" />
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+          </div>
+        </section>
+      </nav>
+    </header>
+    <main>
+      <form class="formularioRegistro">
+        <div class="contenedorRegistro">
+          <h2>Regístrate</h2>
+          <div class="inputContenedor">
+            <i class="fa-solid fa-user"></i>
+            <label for="name"></label>
+            <input
+              type="text"
+              class="inputOpc"
+              id="name"
+              placeholder="Nombre y apellido"
+              required
+            />
+          </div>
+          <div class="inputContenedor">
+            <i class="fa-solid fa-envelope"></i>
+            <label for="email"></label>
+            <input
+              type="email"
+              class="inputOpc"
+              id="email"
+              placeholder="Ingrese un correo válido"
+              required
+            />
+          </div>
+          <div class="inputContenedor">
+            <i class="fa-solid fa-lock"></i>
+            <label for="password"></label>
+            <input
+              type="password"
+              class="inputOpc"
+              id="password"
+              placeholder="Ingrese una contraseña"
+              required
+            />
+          </div>
+          <div class="inputContenedor">
+            <i class="fa-solid fa-phone"></i>
+            <label for="Telefono"></label>
+            <input
+              type="tel"
+              class="inputOpc"
+              id="Telefono"
+              pattern="[0-9]{10}"
+              placeholder="Ingrese su número de telefono"
+              required
+            />
+          </div>
+          <div class="inputContenedor">
+            <label for="Edad"></label>
+            <input
+              type="number"
+              class="inputOpc"
+              id="Edad"
+              min="10"
+              max="110"
+              placeholder="Ingrese su edad"
+              required
+            />
+          </div>
+          <div class="Terminos">
+            <input type="checkbox" name="terminos" id="terminos" required />
+            <label for="terminos"
+              >Acepto los términos y condiciones.<a href="./error404.html"
+                >Ver aquí</a
+              ></label
+            >
+          </div>
+          <button type="submit">Crear cuenta</button>
+          <p>
+            ¿Ya tienes cuenta?
+            <a class="#" href="/ASSETS/login.html">Inicia sesión acá.</a>
+          </p>
+        </div>
+      </form>
+    </main>
+    <footer>
+      <div class="logoFooter">
+        <img src="/img/image.png" alt="Site Logo" width="40vw" />
+        <h2>ArgenTour</h2>
+      </div>
+
+      <div class="FooterLinks">
+        <div class="Redes">
+          <h4>Redes Sociales</h4>
+          <ul>
+            <li>
+              <a href="/ASSETS/error404.html"
+                ><i class="fa-brands fa-instagram fa-2xl"></i
+              ></a>
+            </li>
+            <li>
+              <a href="/ASSETS/error404.html"
+                ><i class="fa-brands fa-square-twitter fa-2xl"></i
+              ></a>
+            </li>
+            <li>
+              <a href="/ASSETS/error404.html"
+                ><i class="fa-brands fa-square-facebook fa-2xl"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="Enlaces">
+          <h4>Información del Sitio</h4>
+          <ul>
+            <li><a href="/ASSETS/Contacto.html">Contacto</a></li>
+            <li><a href="/ASSETS/SobreNosotros.html">Sobre Nosotros</a></li>
+            <li><a href="/ASSETS/error404.html">Política de Privacidad</a></li>
+          </ul>
+        </div>
+
+        <div class="Enlaces">
+          <h4>Acceso</h4>
+          <ul>
+            <li><a href="/ASSETS/login.html">Acceder</a></li>
+            <li><a href="/ASSETS/registro.html">Registrarse</a></li>
+            <li><a href="/ASSETS/error404.html">Soporte</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

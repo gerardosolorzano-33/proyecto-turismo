@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      src="https://kit.fontawesome.com/cda34ee0ad.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="../css/login.css" />
+    <link rel="stylesheet" href="/CSS/FooterHeader.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="/index.html" style="text-decoration: none; color: white">
+          <div class="logoHeader">
+            <img src="/img/image.png" alt="Site Logo" width="60vw" />
+            <h2>Argentour</h2>
+          </div>
+        </a>
+
+        <div class="contenidoHeader">
+          <ul>
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="/ASSETS/error404.html">Locaciones</a></li>
+            <li><a href="/ASSETS/error404.html">Planifica tu viaje</a></li>
+          </ul>
+        </div>
+
+        <section class="ExtraHeader">
+          <div class="BtnNav">
+            <a href="/ASSETS/login.html"><button>Acceder</button></a>
+            <a href="/ASSETS/registro.html"><button>Registro</button></a>
+          </div>
+
+          <div class="SearchNav">
+            <input type="text" placeholder="Buscar" />
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+          </div>
+        </section>
+      </nav>
+    </header>
+    <main>
+      <form class="formularioLogin">
+        <div class="contenedorLogin">
+          <h2>Bienvenido</h2>
+          <div class="inputContenedor">
+            <i class="fa-solid fa-envelope"></i>
+            <label for="email"></label>
+            <input
+              type="email"
+              class="inputOpc"
+              id="email"
+              placeholder="Ingrese su correo"
+              required
+            />
+          </div>
+          <div class="inputContenedor">
+            <i class="fa-solid fa-lock"></i>
+            <label for="password"></label>
+            <input
+              type="password"
+              class="inputOpc"
+              id="password"
+              placeholder="Ingrese su contraseña"
+              required
+            />
+          </div>
+          <button type="submit">Iniciar</button>
+          <p>
+            ¿Todavía no tienes cuenta?
+            <a class="#" href="/ASSETS/registro.html">Registrate acá.</a>
+          </p>
+        </div>
+      </form>
+    </main>
+    <footer>
+      <div class="logoFooter">
+        <img src="/img/image.png" alt="Site Logo" width="40vw" />
+        <h2>ArgenTour</h2>
+      </div>
+
+      <div class="FooterLinks">
+        <div class="Redes">
+          <h4>Redes Sociales</h4>
+          <ul>
+            <li>
+              <a href="/ASSETS/error404.html"
+                ><i class="fa-brands fa-instagram fa-2xl"></i
+              ></a>
+            </li>
+            <li>
+              <a href="/ASSETS/error404.html"
+                ><i class="fa-brands fa-square-twitter fa-2xl"></i
+              ></a>
+            </li>
+            <li>
+              <a href="/ASSETS/error404.html"
+                ><i class="fa-brands fa-square-facebook fa-2xl"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="Enlaces">
+          <h4>Información del Sitio</h4>
+          <ul>
+            <li><a href="/ASSETS/Contacto.html">Contacto</a></li>
+            <li><a href="/ASSETS/SobreNosotros.html">Sobre Nosotros</a></li>
+            <li><a href="/ASSETS/error404.html">Política de Privacidad</a></li>
+          </ul>
+        </div>
+
+        <div class="Enlaces">
+          <h4>Acceso</h4>
+          <ul>
+            <li><a href="/ASSETS/login.html">Acceder</a></li>
+            <li><a href="/ASSETS/registro.html">Registrarse</a></li>
+            <li><a href="/ASSETS/error404.html">Soporte</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
